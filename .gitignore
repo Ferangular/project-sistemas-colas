@@ -114,6 +114,7 @@ config/production.json
 .dockerignore
 
 # Frontend specific
+front-ticket/node_modules/
 front-ticket/dist/
 front-ticket/build/
 front-ticket/.next/
@@ -124,6 +125,7 @@ front-ticket/.cache/
 front-ticket/.parcel-cache/
 
 # Backend specific
+bun-sistema-colas/node_modules/
 bun-sistema-colas/dist/
 bun-sistema-colas/build/
 bun-sistema-colas/logs/
